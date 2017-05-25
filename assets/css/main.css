@@ -8,22 +8,22 @@ Colors:
 */
 
 * {
-  margin: 0;
-  padding: 0;
-  font-family: 'Raleway', sans-serif;
+  	margin: 0;
+  	padding: 0;
+  	font-family: 'Raleway', sans-serif;
 }
 
 nav {
-  background-color: #E54E79;
-  position: fixed;
-  text-align: center;
-  top: 0;
-  width: 100%;
-  height: 75px;
-  z-index: 1;
-  overflow: hidden;
-  float: right;
-  clear: right;
+  	background-color: #E54E79;
+  	position: fixed;
+  	text-align: center;
+  	top: 0;
+  	width: 100%;
+  	height: 75px;
+  	z-index: 1;
+  	overflow: hidden;
+  	float: right;
+  	clear: right;
 }
 
 #logo {
@@ -66,80 +66,144 @@ nav li a:hover{
 }
 
 header {
-  background-image: url('../img/cropped-Lyft-Promo-Codes-car-1.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  position: relative;
-  overflow: hidden;
-  width: 100%;
+    background-image: url(../img/cropped-Lyft-Promo-Codes-car-1.jpg);
+    padding: 20em 3em 3em;
+    text-align: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-position: top center;
+    min-height: 20em;
+    background-attachment: fixed;
+    position: relative;
+    display: block;
 }
 
-.caja-registro{
-  background-color: #EDE9E2;
-  width: 450px;
-  height: 300px;
-  padding: 40px 30px;
-  position: relative;
-  left: 60%;
+.fondo-img .caja-registro{
+	position: absolute;
+    max-width: 400px;
+    top: 13em;
+    right: 0;
+    background-color: #EDE9E2;
+    padding: 3em 2.5em 3em 2em;
+    text-align: left;
+    width: 100%;
 }
 
-.caja-registro h1{
+header h1{
 	color: #00B2A9;
-	font-size: 30px;
-	font-weight: bold;
-	padding-bottom: 20px;
 }
 
-.caja-registro label{
+.subt h2{
 	color: #75726C;
-	margin: 10px 200px 40px 0;
-	font-weight: lighter;
+	font-size: 12px;
+	margin: 1.5em 0;
 }
 
-
-
-.phone{
-	background-color: #EDE9E2;
-	position: relative;
-	border: none;
-	margin-bottom: 15px;
-	font-size: 15px;
-	top: 10px;
-	width: 450px;
-	height: 30px;
+.fondo-img .caja-registro p{
+	display: block;
+	margin-top: 1.5em;
+	font-size: 90%;
 }
 
-.boton-registro{
-	color: whitesmoke;
-	background-color: #E54E79;
-	position: relative;
-	width: 240px;
-	height: 45px;
-	top: 20px;
-	margin-bottom: 40px;
-	border-radius: 10px;
-	cursor: pointer;
-
+.coordenadas, .phone {
+    color: #444;  
+    font-size:20px;
+    height: 40px;
+    display:inline-block;
+    border:none;
+    border-bottom:1px solid #888888;
+    background-color: transparent;
+    position: relative;
+    margin: 0;
+    width: 18em;
 }
+
+.boton-registro {
+	margin-top: 5px;
+	text-align: center;
+	margin-left: -156px;
+  	display: inline-block;
+  	-webkit-box-sizing: content-box;
+  	-moz-box-sizing: content-box;
+  	box-sizing: content-box;
+  	cursor: pointer;
+  	padding: 10px 20px;
+  	border: 1px solid rgba(229,99,133,1);
+  	-webkit-border-radius: 10px;
+  	border-radius: 10px;
+  	color: rgba(255,255,255,0.9);
+  	-o-text-overflow: clip;
+  	text-overflow: clip;
+  	background: #E56385;
+  	-webkit-box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.3) ;
+  	box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.3) ;
+}
+
+.boton-registro i{
+	font-size: 1.5em;
+}
+
+/*Aquí están los estilos del play with lyft*/
 
 .play-with-lyft {
 	background-color: #00B2A9;
-	padding: 30px 0;
+	text-align: center;
+	padding: 2em 0 2.4em 0;
+	border: 0;
 
 }
-.play-with-lyft .titulo{
-	background-color: white;
+.titulo2{
+	background-color: #EDE9E2;
 	text-align: center;
-	padding: 20px 0;
-	margin: 60px 0;
+	padding: 15px;
+	border: 0;
 }
 
 .play-with-lyft h1{
 	color: #75726C;
 	font-size: 55px;
+	font-weight: bold;
 
 }
+
+.caja-juego {
+	background-color: #EDE9E2;
+	text-align: center;
+	position: relative;
+	width: 90%;
+	max-width: 800px;
+	margin-top: 2em;
+	padding: 30px 0;
+}
+
+.caja-juego i{
+	color: #75726C;
+	padding: 10px;
+	font-size: 1.8em;
+}
+
+.coordenadas{
+	width: 15em;
+}
+
+.boton-start{
+	background-color: #26A69A;
+    border-radius: 0.9em;
+    width: 95%;
+    height: 4em;
+    color: white;
+    position: relative;
+    margin-top: 6em;
+    margin-bottom: 1em;
+    border: 0;
+}
+
+
+/*Aquí están los estilos del footer*/
 
 footer {
 	color: white;
@@ -148,8 +212,14 @@ footer {
 }
 
 footer h2{
-	margin-left: 30px;
+	margin-bottom: 30px;
 	font-weight: lighter;
+}
+
+.fa{
+	display: inline-block;
+	margin:5px;
+	cursor: pointer;
 }
 
 .links{
@@ -166,12 +236,12 @@ footer h2{
 	color: #fff;
 }
 
-.footer{
+footer .footer-bottom{
 	background-color: #706D68;
 	padding: 1em 0;
 }
 
-.footer span{
+.footer p{
 	text-align: left;
 	left: 20%;
 	width: 50%
